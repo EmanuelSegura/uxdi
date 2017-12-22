@@ -1,0 +1,113 @@
+body{
+  padding: 20px 200px; /*0 arriba abajo 200 derecha izquierda*/
+  display: flex;
+  flex-direction: column; /*Una cosa(hijos directos) abajo de la otra*/
+}
+
+
+#img-item-search{
+  align-self: flex-end; /*alineate solo, al final*/
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+#img-item-carrousel{
+  width: calc(100vw - 400px); /*100% del ancho - padding*/
+}
+
+#img-item-logomunicipio{
+  width: 203px;
+}
+
+#img-item-tandil{
+  width: 492px;
+}
+
+.logos1{
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: grey;
+  text-decoration: none;
+}
+
+.noticiasytramites{
+  width: 100%;
+  display: flex;
+}
+
+.noticiasytramites section{
+  width: 70%;
+}
+
+.noticiasytramites aside{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.noticiasytramites section img{
+  width: 47%;
+  margin-top: 30px;
+}
+
+.tarjetas{
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+}
+
+.tarjetas img{
+  width: 48%;
+}
+
+#img-item-botones{
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+#img-item-socialmedia{
+  max-width: 100%;
+  height: 50px;
+  align-self: center;
+}
+
+footer{
+ display: flex;
+ flex-direction: column;
+}
+
+#img-item-usina{
+  width: 160px;
+  height: 70px;
+  align-self: center;
+  margin: 70px;
+
+}
+
+#img-item-footer{
+  max-width: 100%;
+
+}

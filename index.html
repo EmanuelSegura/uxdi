@@ -1,1 +1,81 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> <!-- Evita problema con caracteres extranos -->
+
+	<!-- Aca se hace el llamado a los archivos css que le dan estilo a la pagina. Estan en orden de cascada (El de mas abajo pisa al de arriba en caso de coincidir en algo) -->
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> <!-- Archivo bootstrap de css. NO MODIFICAR -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Nuestro archivo CSS modificable -->
+
+	<title></title> <!-- El texto que se ve en la pestana del browser -->
+</head>
+<body>
+
+<!-- NavBar -->
+
+
+<img id="img-item-search" src="images/buscador.jpg" alt="buscador">
+
+<div class="logos1">
+	<img id="img-item-logomunicipio" src="images/logomunicipio.jpg" alt="logo-municipio">
+	<img id="img-item-tandil" src="images/tandil.jpg" alt="Tandil-logo">
+</div>
+
+
+
+	<nav class="navbar-dark bg-dark">
+
+
+	                <a  href="#">INICIO</a>
+	                <a  href="#">TRÁMITES</a>
+	                <a  href="#">TURISMO</a>
+	                <a  href="#">CULTURA</a>
+	                <a  href="#">ECONOMÍA</a>
+	                <a  href="#">SALUD</a>
+	                <a  href="#">INSTITUCIONAL</a>
+	                <a  href="#">INFORMACIÓN DE INTERES</a>
+	                <a  href="#">PLAN DE DESARROLLO TERRITORIAL</a>
+
+
+	</nav>
+
+	<img id="img-item-carrousel" src="images/carrousel.jpg" alt="carrousel">
+
+
+<div class="noticiasytramites">
+	<section>
+		<img class="img-item-noticia" src="images/noticia1.jpg" alt="noticia1">
+		<img class="img-item-noticia" src="images/noticia2.jpg" alt="noticia2">
+		<img class="img-item-noticia" src="images/noticia3.jpg" alt="noticia3">
+		<img class="img-item-noticia" src="images/noticia4.jpg" alt="noticia4">
+	</section>
+
+	<aside>
+		<div class="engloba">
+
+		<div class="tarjetas">
+			<img id="img-item-sumo" src="images/sumo.jpg" alt="sumo">
+			<img id="img-item-pase" src="images/pase.jpg" alt="pase">
+		</div>
+		<img id="img-item-botones" src="images/botones.jpg" alt="botones de servicios">
+
+		</div>
+		<img id="img-item-socialmedia" src="images/redessociales.jpg" alt="Redes sociales">
+	</aside>
+</div>
+
+
+	<footer>
+		<img id="img-item-usina" src="images/usina.jpg" alt="usina-logo">
+		<img id="img-item-footer" src="images/footermunicipio.jpg" alt="footer">
+	</footer>
+
+
+</body>
+
+<!-- Aca se hace el llamado a los archivos Javascript-->
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>  <!-- Llamando a la libreria de Javascript, Jquery. NO MODIFICAR -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- ".min" es la version minificada del archivo bootstrap (sin espacios, pesa menos. NO MODIFICAR) -->
+<script type="text/javascript" src="js/behavior.js"></script> <!-- Nuestro archivo Javascript para editar -->
+</html>
